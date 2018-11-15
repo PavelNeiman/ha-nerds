@@ -42,6 +42,21 @@
     position: relative;
 }
 
+.user-button::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    
+    /* background-color:rgba(12, 12, 12, 0.3);  */
+    
+    background-image: url("../img/user-exit.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    left: 20px;
+    top: 27%;
+}
+
 
 /* slider */
 .slider{
